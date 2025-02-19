@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/aboutme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" >
+</head>
+
+<body>
+    <!--Homepage-->
+    <section id="Home">
+        <div id="header">
+            <nav>
+                <ul id="sidemenu">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="#Skills&Experience">Skills $ Experience</a> </li>
+                    <li> <a href="#Skills&Experience">Education</a> </li>
+                    <li> <a href="aboutme.html">About</a> </li>
+                    <li> <a href="contactme.html">Contact</a> </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </section>
+
+    <!--Contact me-->
+    <section id="ContactMe">
+
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i> mikemghenyi5@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +254115503512</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/mike.mghenyi.7" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mikemghenyi/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Morphiu"><i class="fa-brands fa-github"></i></i></i></a>
+                        <a href="https://www.linkedin.com/in/mike-mghenyi-703462226/"><i
+                                class="fa-brands fa-linkedin"></i></i></a>
+
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form id ='form'>
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <span id="email-error"></span>
+                        <textarea name="message" rows="6" placeholder="Message" required> </textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright &copy Mike Mghenyi 2024 | All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>

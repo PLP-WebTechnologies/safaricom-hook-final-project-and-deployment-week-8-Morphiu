@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/aboutme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" >
+</head>
+<body>
+
+    <section id="Home">
+        <div id="header">
+            <nav>
+                <ul id="sidemenu">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="#Skills&Experience">Skills $ Experience</a> </li>
+                    <li> <a href="index.html">Education</a> </li>
+                    <li> <a href="#AboutMe">About</a> </li>
+                    <li> <a href="contactme.html">Contact</a> </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </section>    
+
+    
+<!--Skills&Experience-->
+<section id="Skills&Experience">
+    <h2 class="subtitle" style="text-align: center;">Skills & Experience</h2>
+    <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+    </div>
+    <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <li><span>Python</span><br>Web application development and Machine Learning</li>
+            <li><span>Html, CSS & Javascript</span><br>Website building </li>
+            <li><span>MySQL</span><br>Database administration, management & development</li>
+            <li><span>Linux OS $ Windows</span><br>Installing and running various apps</li>
+            <li><span>Networking</span><br>Setting up wireless networks</li>
+            <li><span>Freelance Writing</span><br>Article writing and content creation</li>
+        </ul>
+        <a href="assets\docs\Mike Mghenyi Resume.pdf" download class="btn2">Download CV</a>
+    </div>
+    <div class="tab-contents" id="experience">
+        <ul>
+            <li><span>2024-date</span><br>Freelance writer at Nerdy Turtlez.</li>
+            <li><span>August-October</span><br>Beadwork at Ushindi Women's Group in Gilgil.</li>
+            <li><span>May-August 2023</span><br>IT attache` at Njoro Subcounty Hospital.</li>
+            <li><span>April-September 2020</span><br>Cyber-cafe attendant at Cybertech Technologies in Gilgil.</li>
+        </ul>
+        <a href="assets\docs\Mike Mghenyi Resume.pdf" download class="btn2">Download CV</a>
+    </div>
+    <div class="tab-contents" id="education">
+        <ul>
+            <li><span>2024-date</span><br>PLP Academy<br>Software Development & Product Management.</li>
+            <li><span>2020-date</span><br>Kisii University<br>Degree in Bachelors of Science in Software
+                Engineering.</li>
+            <li><span>2016-2019</span><br>Ndururumo High School<br> Kenya Certificate of Secondary Education
+                (KCSE).<br> B+ </li>
+            <li><span>2013-2015</span><br>Gilgil Garrison Primary School<br>Kenya Certificate of Primary Education
+                (KCPE). <br> 350 </li>
+        </ul>
+        <a href="assets\docs\Mike Mghenyi Resume.pdf" download class="btn2">Download CV</a>
+    </div>
+</section>
+
+
+    <section id="AboutMe">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="assets\images\my_picture_2.jpeg" alt="A picture of me smiling"
+                            style="height:11cm; width:9cm;">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About me</h1>
+                        <ul class="subtitle-text">
+                            <li> I am a confident and committed person who can adapt to different working conditions
+                                and is ready to learn. </li>
+                            <li> I love reading non-fiction books such as Atomic Habits and Can’t Hurt Me to gain more
+                                knowledge. </li>
+                            <li> I am a team player with strong interpersonal skills. </li>
+                            <li> I have a passionate desire of gaining more knowledge in the tech industry. </li>
+                            <li> I am passionate about film development, script writing and game development. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copyright">
+            <p> Copyright &copy Mike Mghenyi 2024 | All rights reserved.</p>
+        </div>
+    </footer>
+    <script scr="js\portfolio.js"></script>
+</body>
+</html>
